@@ -1,0 +1,27 @@
+{
+    "jsxSingleQuote": false,
+    "arrowParens": "avoid",
+    "semi": true,
+
+    "printWidth": 80,
+    "tabWidth": 2,
+    "trailingComma": "all",
+    "singleQuote": true,
+    "importOrder": [
+        "^react",
+        "<THIRD_PARTY_MODULES>",
+        "^@chakra-ui/(.*)$",
+        "^@api/(.*)$",
+        "^@lib/(.*)$",
+        "^@pages/(.*)$",
+        "^@components/(.*)$",
+        "^@hooks/(.*)$",
+        "^@utils/(.*)$",
+        "^@globalTypes/(.*)$",
+        "^@generated/(.*)$",
+        "^@assets/(.*)$",
+        "^[./]"
+    ],
+    "importOrderSeparation": false,
+    "importOrderSortSpecifiers": true
+}
